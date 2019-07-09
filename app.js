@@ -35,4 +35,4 @@ app.use('/', require('./src/routes'));
 
 module.exports = app;
 
-//Fix for bug AB#132
+//Fix for bug AB#290
