@@ -12,7 +12,7 @@ Runs a nodejs server (Express v4.16) that stores customer booked flights in a Co
 * Azure CosmosDb
 
 ## Local Environment Setup
-
+Fix for bug #132
 This project uses ES6, and has been tested with nodejs v8.9.4  
 There is almost no front-end logic. Still, the application uses webpack to compile sass styles and bundle third parties js files. If you want to modify any front logic or style run `npm run local:build`.
 
