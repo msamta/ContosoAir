@@ -34,5 +34,3 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', require('./src/routes'));
 
 module.exports = app;
-
-//Fix for bug AB#132 - start #6
